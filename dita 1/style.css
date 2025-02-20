@@ -1,0 +1,59 @@
+/*selector{deklarimi}*/
+*{
+    background-color: brown;
+    color:blanchedalmond
+}
+/*Universal selector*/
+*{
+background-color: antiquewhite;
+color: aquamarine;
+}
+
+
+
+
+
+
+
+/*Tag selector*/
+p{
+background-color: blueviolet;
+/*id selector*/
+}
+#p1{
+font-size: 30;
+background-color: antiquewhite;
+color: black;
+}
+/* Class selection*/
+.para{
+    font-size: 40px;
+background-color: aqua;
+color: bisque;
+}
+
+/*Descenting Selector*/
+div [{
+   background-color: darkkhaki;
+   font-size: 26px;
+   color: black;
+}]
+
+/* child Selector*/
+div>h1{
+    background-color: chocolate;
+    font-size: 22;
+    color: blue;
+}
+
+/* group Selector*/
+h2,h3,button{
+   background-color: aqua; 
+   color: bisque;
+}
+
+
+
+
+
+

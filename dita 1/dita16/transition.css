@@ -1,0 +1,75 @@
+#div1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: aliceblue;
+    transition: 1.3s;
+    
+}
+#div1:hover{
+    width:300px;
+    height: 300px;
+    background: rgba(255, 0, 0, 0.445);
+    color: red;
+    padding: 50px;
+}
+#div2{
+    width:100px ;
+    height:100px ;
+    background:rgba(255, 0, 0, 0.411) ;
+    /*transition:2s;*/
+    transition: 10s ,width 2s, height 3s, background 1s;
+
+    color:white ;
+    transition-delay: 1s;
+}
+#div2:hover{
+    width:300px;
+    height: 300px;
+    background: rgba(255, 0, 0, 0.425);
+    color: red;
+    padding: 50px;
+}
+#div3{
+width:100px;
+height: 100px;
+background: rgba(255, 0, 0, 0.541);
+transition: 1s;
+
+color: white;
+transition-timing-function: ease-in;
+}
+#div3:hover{
+    width: 2000px;px;
+    height: 300px;
+    background: rgba(255, 0, 0, 0.425);
+    color: red;
+    padding: 50px;
+}
+#div4{
+    width:100px;
+    height: 100px;
+    background: rgba(255, 0, 0, 0.541);
+    color: white;
+    transition-property: width,height,color;
+    transition-duration: 4s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+    }
+    #div4:hover{
+        width: 2200px;
+        height: 300px;
+        background-color: brown;
+        color: red;
+    }
+    #div5{
+        width:100px;
+    height: 100px;
+    background: rgba(255, 0, 0, 0.541);
+    color: white;
+    transition: width,4s,linear 1s;
+    }
+    #div5:hover{
+        width: 300px;
+        
+    }

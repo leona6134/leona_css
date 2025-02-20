@@ -1,0 +1,74 @@
+/*Tabela me border-collapse,border-speacing*/
+#table1,.table1{
+    border:1px solid black;
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+}
+.table1{
+    padding: 20;
+    margin: 10;
+}
+/* per color te tabelave*/
+#table1{
+    background-color: red;
+    width: 400;
+    height: 40;
+}
+/*tabela me tekst,text-algin,vertical-algin*/
+#table2,
+.table2{
+    margin-top: 50px;
+    border: 1px solid black;
+    width:400px;
+    height: 40px;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+}
+/*tabel vetem nga njera ane me border*/
+#table3,
+.table3{
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+    width:400px;
+    height: 40px;
+    border-collapse: collapse;
+}
+/* per me i caketu ngjzra te ndryahme rreshtave cift ose tel*/
+#table2 tr:nth-child(odd){
+    background-color: pink;
+    color: aqua;
+}
+/*table kur te afrohet mausi ndryshon ngjyra*/
+.table2:hover{
+    background-color: brown;
+}
+#table3:hover{
+    background-color: brown;
+}
+/*rensponsive table*/
+div{
+    width: 500px;
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: auto;
+
+}
+/*per te paraqiyur nje titull apo nje pershkrim*/
+#table1{
+    caption-side: :top;
+    empty-cells:hide;
+}
+#table2{
+    caption-side: :bottom;
+    empty-cells:show;
+}
+
+#table4,
+.table{
+    margin-top: 50px;
+    border: 1px solid black;
+    width:400px;
+    height: 40px;
+    border-collapse: collapse;
+}

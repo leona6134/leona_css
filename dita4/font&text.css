@@ -1,0 +1,28 @@
+/*Font style and family*/
+#p1{
+    font-family: "Note Serif Telgu",serif;
+    font-style: italic
+}
+/*Font variant*/
+#p2{
+    font-variant: small small-caps;
+}
+#p3{
+
+    font-weight:bold
+}
+
+#p4{
+    font-size:4vw
+
+}
+#p5{
+    font:bold italic small-caps 10vw georgian;
+    width:150px
+
+}
+#p6 {
+    font-family: "Kanit", serif;
+    font-weight: 900;
+    font-style: normal;
+  }

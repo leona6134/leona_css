@@ -1,0 +1,128 @@
+/*Position of Element*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Normal flow*/
+/*nuk ndryshon pozicjoni*/
+#p1{
+    border:1px solid black;
+    width: 200px;
+    height: 100px;
+    position:static ;
+}
+#p2{
+    border:1px solid black;
+    width: 200px;
+    height: 100px;
+    position:static ;
+}
+/* Relativ positioning*/
+#p3{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: static;
+    background-color: brown;
+}
+#p5{
+    border: 1px;
+    width:200;
+    height:100px;
+    position: absolute;
+}
+#p6{
+    border: 1px solid black;
+    width:200px;
+    height:100px;
+    position:static;
+}
+/*fixed positioning*/
+/* edhe me scroll,nuk ndryshon pozicionimi*/
+#p7{
+    border:1px  solid black;
+    width:200px;
+    height:100px;#static {
+        position: static;
+        border: 3px solid #00014e;
+        width: 250px;
+        height: 250px;
+        padding: 20px;
+      }
+      
+      #relative {
+        position: relative;
+        border: 3px solid #00014e;
+        width: 250px;
+        height: 250px;
+        padding: 20px;
+        left: 200px;
+        top: 20px;
+      }
+      
+      #parent{
+        position: relative;
+        width: 250px;
+        height: 250px;
+        border: 3px solid #00014e;
+      }
+      
+      
+      #absolute{
+      
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #00014e;
+        left: 80px;
+        top: 70px;
+        color: white;
+      
+      }
+      
+      #fixed {
+        position: fixed;
+        background-color: #00014e;
+        border: 3px solid #00014e;
+        width: 250px;
+        height: 250px;
+        padding: 20px;
+        left: 400px;
+        top: 100px;
+        z-index: 10;
+      }
+      
+      #h1fixed{
+        position: fixed;
+        right: 300px;
+        top: 20px;
+      }
+      
+      #sticky{
+        position: sticky;
+        top: 0px;
+        background-color: #00014e;
+        padding: 20px;
+        color: white;
+      
+      }
+      
+      
+      
+    position:fixed;
+    top:100px;
+    left:50;
+    z-index: 100;
+  
+}
+#p8{
+    border:1px solid black;
+    width: 200px;
+    height: 100px;
+    position:static ;
+
+}
+#p9{
+    
+}
+

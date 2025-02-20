@@ -1,0 +1,9 @@
+.foto1{
+    width:300px;
+    opacity: 0.4;
+
+}
+.foto1:hover{
+    border-radius: 200px;
+    opacity: 1;
+}

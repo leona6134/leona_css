@@ -1,0 +1,71 @@
+/*border-style*/
+
+#p1{
+    border-style:solid
+    border-width:5px;
+
+}
+/*Border-width*/
+#p2{
+    border-style:dashed;
+ /*border-width:10px
+    border-width:0.9cm
+    border-width:thin;
+    border-width:medium;*/
+    border-width:thick
+    border-color:
+}
+#p3{
+    border-style:solid;
+              /*T R B L*/
+border-width :3px 20px 10px;*/
+}
+/**/
+#p4{
+    border-style:dotted solid dashed double;
+    border: width 10px;
+    /*border-color:#ac34ff;*/
+    border-color: blue red green yellow
+
+
+}
+#p5{
+    border:2px solid red;
+    padding: 20px
+    /*margin:30px;*/
+    width:300px;*/
+    height: 50px
+    height: 50px;
+    box-size:border-box;
+}
+#p6{
+    border:2px solid red;
+    padding:0px 
+    width:300px;
+    height:50px;
+    height:50px; 
+    box-sizing:border-box;
+}
+#p7{
+  border-top:6px dashed green
+
+  
+}
+#p8{
+    border-style: double;
+    border-radius: 150px;
+    width:200px;
+    height: 200px;
+}
+#p9{
+    border:20px ridge red;
+}
+#p10{
+    border:20px groove red;
+}
+#p11{
+    border:20px inset red;
+}
+#p12{
+    border:20px outset red;
+}

@@ -1,0 +1,26 @@
+
+body{
+    background-image: url('foto.jpg');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+div{
+    border: 10px solid black;
+    height: 400px;
+    width:400px
+}
+
+#div1{
+    background-image: url('zhuri.jpg');
+    background-size: cover;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+#div2{
+    background: green url('zhuri.jpg') no-repeat 100% scroll;
+}
