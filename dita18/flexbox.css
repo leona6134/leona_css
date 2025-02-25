@@ -6,14 +6,96 @@
     display: flex;
     flex-wrap: wrap;
 }
-.images.jpg{
+.img2{
     width:200px;
     height:200px;
 }
 #div3{
     display: flex;
 }
-.images.jpg{
+.img3{
     width: 200px;
     height: 200px;
+}
+/*justify-content*/
+#div4{
+    display:flex;
+    justify-content: flex-end;
+    /*justify-content:space-between;*/
+    /*justify-content:space-around*/
+    /*justify-content*/
+    /**/
+}
+.img4{
+    width:200px;
+    height: 200px;
+}
+#div5{
+    display: flex;
+    height: 250px;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    font-size: 30px;
+    background-color: red;
+    width: 100px;
+    margin:10px;
+    text-align: center;
+   line-height: 100px;
+}
+#div6{
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    background-color: lightblue;
+}
+.p2{
+    font-size: 30px;
+    background-color: red;
+    width: 10px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+#div7{
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    background-color: lightblue;
+}
+.p2{
+    font-size: 30px;
+    background-color: red;
+    width: 10px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+#div8{
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    background-color: lightblue;
+}
+.p4{
+    font-size: 30px;
+    background-color: red;
+    width: 10px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+#div9{
+    display:flex;
+    flex-wrap: nowrap;
+   flex-direction: row;
+.p5{
+    font-size: 30px;
+    background-color: red;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    flex: 30%;
 }
