@@ -6,6 +6,26 @@ body{
 }
 @media screen and (max-width:700px){
     body{
-        background-color: red;
+        background-color: aqua;
+    } 
+    #p1{
+        font-size: 30px;
+    }
+} 
+/*Orientation:Portrait/Landspace*/
+@media only screen and(orientation:landspace){
+    body{
+        background-color: lawngreen;
     }
 }
+/*hide elements*/
+@media screen  and (max-width: 700px){
+    body{
+        background-color: aqua;
+    }
+    #p1{
+        display: none;
+    }
+}
+
+    

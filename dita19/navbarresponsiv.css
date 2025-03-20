@@ -1,0 +1,52 @@
+body{
+    margin:0 px;
+    padding:0 px;
+}
+
+nav{
+   background-color: rgba(214, 247, 247, 0.013);
+   color: white;
+   margin-top: -17px;
+   text-align: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding:20px;
+}
+nav ul  li a :hover{
+     background-color:rgba(108, 110, 112, 0) ;
+     font-size: 25px;
+     text-decoration: underlinde;
+}
+
+
+
+body{
+    background-color: rgb(0, 89, 255);
+}
+#p1{
+    font-size: 50px;
+    
+}
+#div{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:700px){
+    body{
+        background-color: aqua;
+    } 
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+} 
